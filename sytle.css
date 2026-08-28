@@ -1,29 +1,49 @@
- P {
-    color: red;
+ 
+p {
+   color: red;
  }
 
  h2 {
-    color:  green;
-    text-decoration: underline;
+   color: green;
+   text-decoration: underline;
  }
 
-   .project {
-    color: pink;
-
+ .projects {
+   color: pink;
  }
-    #services {
-        color:blue;
 
-
+ #services {
+   color: blue;
  }
- body{
-    text-align: center;
+ body {
+   text-align: center;
  }
-ul{
-    list-style: none;
-}
+ ul {
+   list-style: none;
+ }
  #contact {
-    color: orange;
-
+   color: orange;
  }
- 
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ nav ul {
+    display: flex;
+    gap: 20px;
+ }
+ main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+ }
+ main section {
+    flex: 1;
+    main-width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+ }
