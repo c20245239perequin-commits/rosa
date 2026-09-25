@@ -31,6 +31,12 @@ border: 1px solid black;
 padding:  20px;
 }
 
+#project{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    background-color: orange;
+}
 form{
     display: flex;
     flex-direction: column;
